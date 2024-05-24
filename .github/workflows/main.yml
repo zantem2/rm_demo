@@ -12,6 +12,4 @@ jobs:
               uses: cypress-io/github-action@v6
               with:
                   browser: chrome
-                  build: npm run build
-                  start: npm start
                   wait-on: "http://www.amazon.com"
